@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#001D85"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/my_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="312dp"
+            android:scrollbars="vertical"
+            tools:layout_editor_absoluteY="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/englishascending"
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="15dp"
+                android:background="#000"
+                android:gravity="center"
+                android:text="english up"
+                android:textColor="#fff"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/englishdescending"
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:background="#000"
+                android:gravity="center"
+                android:text="english down"
+                android:textColor="#fff"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/areadescending"
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="15dp"
+                android:background="#000"
+                android:gravity="center"
+                android:text="area down"
+                android:textColor="#fff"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/areaascending"
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:background="#000"
+                android:gravity="center"
+                android:text="area up"
+                android:textColor="#fff"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
